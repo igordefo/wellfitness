@@ -1,5 +1,11 @@
-@import "./vendors/bootstrap.min.css";
+@import "./vendors/bootstrap.min.scss";
 
 @import "./abstracts/variables";
 
 @import "./base/base";
+@import "./base/fonts";
+@import "./base/typography";
+
+@import "./blocks/header";
+
+@import "./components/logo";

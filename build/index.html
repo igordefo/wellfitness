@@ -4,10 +4,56 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <title>WellFitness</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container-fluid container-xl">
+        <div class="d-flex align-items-center">
+          <div class="header__left">
+            <div class="logo">
+              <a href="#">
+                <img src="./img/logo.svg" alt="WellFitness logo">
+              </a>
+            </div>
+            <div class="city">
+              <button>Москва</button>
+            </div>
+          </div>
+          <div class="partnership">
+            <a href="#" class="click-button">Для дилеров</a>
+            <a href="#" class="click-button click-button--full">Become a partner</a>
+          </div>
+          <div class="phone">
+            <li class="dropdown dropdown-hover">
+              <a class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                +7 (800) 000-00-00 <span>МСК</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#">+7 (800) 000-00-00 <span>СПб</span></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">+7 (800) 000-00-00 <span>ЕКб</span></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">+7 (800) 000-00-00 <span>НСК</span></a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <div class="auth">
+            <a href="#" class="auth__link">
+              <span class="auth__text">Войти</span>
+              <span class="auth__icon">
+                <img src="./img/auth.svg" alt="Авторизация">
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
     <script src="./js/vendors/bootstrap.bundle.min.js"></script>
   </body>
 </html>
